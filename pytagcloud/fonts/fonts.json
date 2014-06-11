@@ -103,5 +103,10 @@
                 "name": "PT Sans Regular",
                 "ttf": "PT_Sans-Regular.ttf",
                 "web": "http://fonts.googleapis.com/css?family=PT+Sans"
+        },
+	{
+                "name": "Nanum Gothic Coding",
+                "ttf": "NanumGothic_Coding.ttf",
+                "web": "http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css"
         }
 ]

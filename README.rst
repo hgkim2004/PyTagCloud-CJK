@@ -2,44 +2,19 @@
  PyTagCloud
 =============
 
-PyTagCloud let you create simple tag clouds inspired by http://www.wordle.net/
+PyTagCloud let you create simple tag clouds inspired by `Wordle <http://www.wordle.net/>`_.
+
+This is a fork of `the original PyTagCloud <https://github.com/atizo/PyTagCloud>`_, that aims to support Korean.
+(A `pull request <https://github.com/atizo/PyTagCloud/pull/19>`_ has been sent to the original as of Jun 11, 2014.)
 
 Currently, the following output formats have been written and are working:
 
 - PNG images
 - HTML/CSS code
 
-If you have ideas for other formats please let us know.
-
-Installation
-============
-
-You can install PyTagCloud either via the Python Package Index (PyPI) or from source.
-
-To install using `pip`::
-
-    $ pip install -U pytagcloud
-
-To install using `easy_install`::
-
-    $ easy_install -U pytagcloud
-
-
-Downloading and installing from source
---------------------------------------
-
-Download the latest version of PyTagCloud from
-http://pypi.python.org/pypi/pytagcloud/
-
-You can install it by doing the following,::
-
-    $ tar xfz pytagcloud-*.tar.gz
-    $ cd pytagcloud-*/
-    $ python setup.py build
-    $ python setup.py install # as root
 
 Requirements
-------------
+============
 
 #. Install `pygame <http://www.pygame.org/download.shtml>`_ >= 1.9.1::
 
@@ -49,39 +24,24 @@ Requirements
 
    $ pip install simplejson
 
-Quick start
-===========
 
-You probably want to see some code by now, so here's an example:
-::
-
-    from pytagcloud import create_tag_image, make_tags
-    from pytagcloud.lang.counter import get_tag_counts
-    
-    YOUR_TEXT = "A tag cloud is a visual representation for text data, typically\
-    used to depict keyword metadata on websites, or to visualize free form text."
-
-    tags = make_tags(get_tag_counts(YOUR_TEXT), maxsize=80)
-    
-    create_tag_image(tags, 'cloud_large.png', size=(900, 600), fontname='Lobster')
-
-    import webbrowser
-    webbrowser.open('cloud_large.png') # see results
-
-More examples can be found in `test.py <https://github.com/atizo/PyTagCloud/blob/master/pytagcloud/test/tests.py>`_.
-                                        
-
-Example
-=======
-`Demo <https://www.atizo.com/docs/labs/cloud.html>`_
-
-.. image:: https://github.com/atizo/PyTagCloud/raw/master/docs/example.png
-
-Contributing
+Installation
 ============
 
-Development of `pytagcloud` happens at Github: https://github.com/atizo/PyTagCloud
+Try::
 
-You are highly encouraged to participate in the development
-of `pytagcloud`. If you don't like Github (for some reason) you're welcome
-to send regular patches.
+    # pip install git+https://github.com/e9t/PyTagCloud.git
+
+or::
+
+    $ git clone git@github.com:e9t/PyTagCloud.git
+    $ cd PyTagCloud
+    # python setup.py install
+
+
+Examples
+========
+
+- `국회 발의 의안 워드클라우드 그리기 <https://github.com/e9t/konlpy/wiki/Examples#%EA%B5%AD%ED%9A%8C-%EB%B0%9C%EC%9D%98-%EC%9D%98%EC%95%88-%EC%9B%8C%EB%93%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EA%B7%B8%EB%A6%AC%EA%B8%B0>`_::
+
+.. image:: https://raw.githubusercontent.com/e9t/konlpy/master/examples/wordcloud.png

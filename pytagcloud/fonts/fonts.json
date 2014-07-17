@@ -108,5 +108,9 @@
                 "name": "Nanum Gothic Coding",
                 "ttf": "NanumGothic_Coding.ttf",
                 "web": "http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css"
+        },
+	{
+                "name": "Noto Sans CJK",
+                "ttf": "NotoSansCJK-Regular.ttc"
         }
 ]

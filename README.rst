@@ -42,6 +42,10 @@ or::
 Examples
 ========
 
-- `국회 발의 의안 워드클라우드 그리기 <https://github.com/e9t/konlpy/wiki/Ex:-%EC%9B%8C%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EA%B7%B8%EB%A6%AC%EA%B8%B0>`_::
+- `Korean <examples/korean.py>`_::
 
-.. image:: http://konlpy.readthedocs.org/en/latest/_images/wordcloud.png
+.. image:: examples/korean.png
+
+- `Arabic <examples/arabic.py>`_::
+
+.. image:: examples/arabic.png

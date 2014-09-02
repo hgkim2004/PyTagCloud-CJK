@@ -112,5 +112,9 @@
 	{
                 "name": "Noto Sans CJK",
                 "ttf": "NotoSansCJK-Regular.ttc"
+        },
+	{
+                "name": "B Mitra",
+                "ttf": "B_Mitra.ttf"
         }
 ]

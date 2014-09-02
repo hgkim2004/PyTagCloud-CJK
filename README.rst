@@ -42,11 +42,9 @@ Examples
 ========
 
 - `Korean <examples/korean.py>`_::
-
     .. image:: examples/korean.png
 
 - `Arabic <examples/arabic.py>`_::
-
     .. image:: examples/arabic.png
 
 

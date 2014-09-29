@@ -35,14 +35,9 @@ Installation
 
 Try::
 
-    # pip install git+https://github.com/e9t/PyTagCloud.git
-
-or::
-
-    $ git clone git@github.com:e9t/PyTagCloud.git
-    $ cd PyTagCloud
-    # python setup.py install
-
+    $ git clone https://github.com/e9t/PyTagCloud-CJK.git
+    $ cd PyTagCloud-CJK/
+    $ python setup.py install
 
 Examples
 ========

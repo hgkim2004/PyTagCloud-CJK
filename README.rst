@@ -14,7 +14,7 @@ Currently, the following output formats have been written and are working:
 Requirements
 ============
 
-#. Requries python >= 2.7:: [1]_
+#. Requries python >= 2.7: [1]_
 
 #. Install `pygame <http://www.pygame.org/download.shtml>`_ >= 1.9.1::
 

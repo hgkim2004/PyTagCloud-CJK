@@ -4,15 +4,12 @@
 
 PyTagCloud let you create simple tag clouds inspired by `Wordle <http://www.wordle.net/>`_.
 
-This is a fork of `the PyTagCloud-CJK <https://github.com/e9t/PyTagCloud-CJK>`_, that aims to support Korean. [1]_
+This is a fork of `the PyTagCloud-CJK <https://github.com/e9t/PyTagCloud-CJK>`_, that aims to explain how to install on CentOS6 not Ubuntu.
 
 Currently, the following output formats have been written and are working:
 
 - PNG images
 - HTML/CSS code
-
-The aim of this fork is to explain how to install on CentOS6 not Ubuntu.
-
 
 Requirements
 ============
@@ -58,6 +55,3 @@ Examples
 
 - `Arabic <examples/arabic.py>`_::
     .. image:: examples/arabic.png
-
-
-.. [1] A `pull request <https://github.com/atizo/PyTagCloud/pull/19>`_ has been sent to the original at Jun 11, 2014, and closed at Sep 2, 2014.

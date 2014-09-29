@@ -53,4 +53,4 @@ Examples
 - `Arabic <examples/arabic.py>`_::
     .. image:: examples/arabic.png
 
-.. [1] Installing Python 2.7.8 on CentOS 6.5 <http://bicofino.io/blog/2014/01/16/installing-python-2-dot-7-6-on-centos-6-dot-5/>
+.. [1] `Installing Python 2.7.8 on CentOS 6.5 <http://bicofino.io/blog/2014/01/16/installing-python-2-dot-7-6-on-centos-6-dot-5/>`_
